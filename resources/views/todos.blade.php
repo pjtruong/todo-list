@@ -30,7 +30,7 @@
             <a href="{{ route('todos.completed', ['id' => $todo->id]) }}" class="btn btn-success btn-xs"> Mark as completed </a>
         @else
             <span class="text-success">Completed</span>
-        
+
         @endif
 
 

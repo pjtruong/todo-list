@@ -44,7 +44,21 @@
     </style>
 </head>
 <body>
+
+
+
 <div class="container">
+
+    @if(Session::has('success'))
+
+        <div class="alert alert-success" role="alert">
+
+            {{ Session::get('success') }}
+
+        </div>
+
+    @endif
+    
     <div class="content">
         <div class="title">
 
